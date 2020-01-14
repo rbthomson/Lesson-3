@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Entertainment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1><span>&nbsp;YewTube&nbsp;</span></h1>
+  <div class = "row">
+
+    <div class = "column"> <video controls style="width:100%">
+        <source src="Greg Stewart.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> </div>
+
+    <div class = "column"> <video controls style="width:100%">
+        <source src="Steven Davis.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> </div>
+
+    <div class = "column"> <video controls style="width:100%">
+        <source src="James Tavernier.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> </div>
+
+    </div>
+
+
+    <br><br>
+
+<div class="form">
+
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="user_name" required>
+
+    <br><br>
+
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="user_name" required>
+
+    <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="user_email" required>
+
+    <br><br>
+
+        <label for="VidChoice">Select favourite video:</label>
+        <select name="favourite" required>
+            <option value="vid1">Video 1</option>
+            <option value="vid2">Video 2</option>
+            <option value="vid3">Video 3</option>
+        </select>
+
+    <br><br>
+
+        <label>Why did you like the video so much?:</label>
+        <textarea name="name" rows="4" cols="20" required></textarea>
+
+    <br><br>
+
+        <label>Rate the video on a scale of 0 to 10:</label>
+        <input type="range" name="points" min="0" max="10">
+
+    <br><br>
+
+    <input type="submit" name="submit" value="Submit">
+    <input type="reset" name="reset" value="Reset">
+
+  </form>
+
+</div>
+
+  </body>
+</html>

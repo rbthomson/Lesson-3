@@ -1,0 +1,31 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+video {
+  width: 320px;
+  height: 240px;
+}
+
+h1 span {
+  background-color: red;
+  border: 15px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 1px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.form {
+  text-align: center;
+}
